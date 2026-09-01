@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://k-v-patel.github.io/Krupa-Patel-Web/sitemap.xml
+Sitemap: https://k-v-patel.github.io/Krupa-Patel/sitemap.xml
