@@ -37,7 +37,7 @@ It's accurate but generic, has no CAD/design content, no keywords for search, an
 
 **Replace with:**
 ```
-Electrical & Electronics Engineer (EIT, Engineers Geoscientists Manitoba) with 4+ years across three very different environments: a satellite applications centre, an industrial automation integrator, and a manufacturer of biomass heating systems.
+Electrical & Electronics Engineer (EIT, Engineers Geoscientists Manitoba) with 4+ years across the aerospace and manufacturing industries — three very different environments: a satellite applications centre, an industrial automation integrator, and a manufacturer of biomass heating systems.
 
 That mix means I work end-to-end on a product instead of one slice of it. I draft the AutoCAD electrical schematics — power distribution, control loops, sensor wiring, panel layouts and single-line diagrams. I build the mechanical side in Autodesk Inventor, turning sketches and concepts into parametric 3D models, reusable iParts/iAssemblies and the dimensioned 2D manufacturing drawings the shop builds from. Then I program and validate what goes inside: PLC logic, HMI screens, and embedded C/C++ firmware on control boards with UART/SPI/I2C interfaces, OTA updates and field diagnostics.
 
@@ -95,7 +95,7 @@ Set location to `Winnipeg, Manitoba, Canada`.
 • Draft AutoCAD electrical schematics for biomass furnace systems — power distribution, control loops, sensor wiring, panel layouts and single-line diagrams.
 • Model parts and assemblies in Autodesk Inventor, building reusable iParts/iAssemblies and producing the dimensioned 2D manufacturing drawings used in production.
 • Program and validate PLC logic, HMI interfaces and PCB control systems in C/C++, including over-the-air updates and real-time diagnostic reporting.
-• Integrated EZ Link Control hardware with the myHeatMaster cloud app for remote temperature monitoring and customer alerts.
+• Integrated EZ-Link™ control hardware with the myHeatMaster app (live on the App Store and Google Play), giving owners real-time furnace state, temperature and oxygen data, remote setpoint control, fault notifications and over-the-air firmware updates.
 • Tuned combustion and gasification control for higher efficiency, validating results with instrumented test runs.
 • Analyze test and production data in Python, Power BI and LabVIEW; author SOPs, test procedures and engineering change documentation; drive Lean/Six Sigma improvements with production teams.
 ```
@@ -148,8 +148,9 @@ Then ask two coworkers to endorse the top three — endorsements affect recruite
 
 Profile → Add section → Featured:
 1. Link: `https://k-v-patel.github.io/Krupa-Patel/` — title "Portfolio — Krupa Patel, EIT"
-2. Media: your résumé PDF
-3. Media: 1–2 non-confidential CAD screenshots (a schematic sheet, an Inventor render). CAD work is visual — this is the single best thing you can add.
+2. Link: `https://apps.apple.com/ca/app/myheatmaster/id6572305924` — title "myHeatMaster app (App Store) — EZ-Link™ hardware integration I worked on". A shipping product with a public listing is the strongest single item you can feature.
+3. Media: your résumé PDF
+4. Media: 1–2 non-confidential CAD screenshots (a schematic sheet, an Inventor render). CAD work is visual — this is the single best thing you can add.
 
 ## 10. Banner image
 

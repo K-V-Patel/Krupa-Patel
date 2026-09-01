@@ -112,6 +112,22 @@ h3.sub{font-family:'Space Grotesk',Inter,sans-serif;font-size:1.15rem;margin:36p
 .card.featured{grid-column:span 2;border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
 .card.featured h3{font-size:1.3rem}
 
+/* app showcase card */
+.app-card{grid-column:span 2;display:grid;grid-template-columns:200px 1fr;grid-template-rows:auto auto 1fr auto;
+  column-gap:22px;align-items:start}
+.app-card .app-head{grid-column:2;display:flex;gap:14px;align-items:center;margin-bottom:12px}
+.app-card .app-head h3{margin:0}
+.app-icon{width:60px;height:60px;border-radius:14px;border:1px solid var(--line);flex:none}
+.app-meta{font-size:.82rem;color:var(--muted);margin:4px 0 0}
+.app-shot{grid-column:1;grid-row:1/-1;width:100%;height:auto;border-radius:12px;border:1px solid var(--line)}
+.app-card p{grid-column:2;margin:0 0 10px}
+.app-card .quote{font-style:italic;border-left:3px solid var(--accent);padding-left:12px}
+.app-links{grid-column:2;display:flex;gap:10px;margin:2px 0 12px}
+.app-links a{font-size:.85rem;font-weight:600;color:var(--accent);text-decoration:none;
+  border:1px solid var(--line);border-radius:999px;padding:5px 14px}
+.app-links a:hover{border-color:var(--accent)}
+.app-card .tags{grid-column:2}
+
 /* skills */
 .skills{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:22px}
 .skillset{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
@@ -187,6 +203,10 @@ footer{padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-s
 
   .cards{grid-template-columns:1fr;gap:14px}
   .card{padding:18px}
+  .card.featured,.app-card{grid-column:span 1}
+  .app-card{display:block}
+  .app-shot{max-width:230px;display:block;margin:0 auto 16px}
+  .app-card .app-head{margin-bottom:12px}
   .skills{grid-template-columns:1fr;gap:14px}
   .skillset{padding:16px}
 
