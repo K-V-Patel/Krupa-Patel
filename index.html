@@ -35,7 +35,7 @@
     <div class="hero-text">
       <p class="eyelash">Morden, Manitoba · Engineer-in-Training (EGM)</p>
       <h1>Krupa Patel<span class="dot">,</span> <span class="eit">EIT</span></h1>
-      <p class="tagline">Electrical &amp; Automation Engineer bridging <strong>embedded systems, firmware programming, and production operations</strong> across the <strong>aerospace and manufacturing industries</strong> — from SATCOM terminal systems at ISRO to automated test scripts, industrial PLC loops, and optimized plant floor workflows.</p>
+      <p class="tagline">Electrical &amp; Automation Engineer bridging <strong>embedded systems, firmware programming (C/C++, Python), and production operations</strong> across the <strong>aerospace and manufacturing industries</strong> — from SATCOM terminal systems at ISRO to automated test scripts, industrial PLC loops, and optimized plant floor workflows.</p>
       <div class="cta">
         <a class="btn primary" href="#projects">See my work</a>
       </div>
@@ -47,6 +47,7 @@
     </div>
   </div>
 </section>
+
 <section id="about" class="section">
   <div class="wrap">
     <h2><span class="num">01</span> About</h2>
@@ -121,7 +122,6 @@
     </ol>
   </div>
 </section>
-
 <section id="projects" class="section">
   <div class="wrap">
     <h2><span class="num">03</span> Key Projects</h2>
@@ -131,22 +131,25 @@
         <p>Co-developed and validated indigenous space mission hardware sub-systems for the GAGANYAAN initiative. Programmed low-level tracking architectures for Emergency Locator Transmitters (ELT) and Distress Alert Transmitters (DAT) under extreme operational constraints.</p>
         <div class="tags"><span>Aerospace Validation</span><span>Firmware Engineering</span><span>Signal Integrity</span></div>
       </article>
+      
       <article class="card">
         <h3>Product Lifecycle Control Ecosystem</h3>
         <p>Programmed proprietary automated control board firmware, rolling out secure real-time diagnostic reporting pipelines and automated over-the-air (OTA) firmware update structures for custom consumer hardware arrays.</p>
         <div class="tags"><span>C/C++ Frameworks</span><span>OTA Architecture</span><span>PCB Diagnostics</span></div>
       </article>
       
-      <!-- Split-row card for myHeatMaster App -->
-      <article class="card project-row">
-        <div class="project-thumb-container">
-          <img src="myheatmaster-app.png" alt="myHeatMaster App Layout" class="project-thumb" />
+      <!-- Native CSS App Showcase Card for myHeatMaster -->
+      <article class="card app-card">
+        <img src="myheatmaster-app.png" alt="myHeatMaster App Mockup" class="app-shot" />
+        <div class="app-head">
+          <div class="app-icon" style="background: var(--bg-alt); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--accent);">HM</div>
+          <div>
+            <h3>myHeatMaster Ecosystem</h3>
+            <div class="app-meta">Hardware &amp; Mobile Integration</div>
+          </div>
         </div>
-        <div class="project-content">
-          <h3>myHeatMaster App &amp; Hardware Integration</h3>
-          <p>Collaborated on linking real-time diagnostic reporting hardware with cloud alerting platforms. Directly synchronized physical EZ Link Control hardware modules with cloud databases for remote multi-point temperature telemetry and alert triggers.</p>
-          <div class="tags"><span>Hardware-Software Sync</span><span>Python Scripts</span><span>IoT Architecture</span></div>
-        </div>
+        <p>Collaborated on linking real-time diagnostic reporting hardware with cloud alerting platforms. Directly synchronized physical EZ Link Control hardware modules with cloud databases for remote multi-point temperature telemetry and live alert triggers.</p>
+        <div class="tags"><span>Hardware-Software Sync</span><span>Python Scripts</span><span>IoT Architecture</span></div>
       </article>
       
       <article class="card">
@@ -160,50 +163,67 @@
 
 <section id="skills" class="section alt">
   <div class="wrap">
-    <h2><span class="num">04</span> Technical Skills &amp; Credentials</h2>
-    <div class="cards">
-      <article class="card">
-        <h3>Automation &amp; Systems Control</h3>
-        <div class="tags">
-          <span>PLC Logic</span><span>HMI Design</span><span>IIoT Architecture</span><span>SCADA Frameworks</span><span>Sensor Wiring</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3>Design &amp; Fabrication Software</h3>
-        <div class="tags">
-          <span>AutoCAD Electrical</span><span>Autodesk Inventor</span><span>Altium Designer</span><span>MATLAB</span><span>NI Multisim</span><span>Revit Basics</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3>Testing &amp; Manufacturing Methods</h3>
-        <div class="tags">
-          <span>Oscilloscopes</span><span>Spectrum Analyzers</span><span>Root-Cause Failure Analysis (RCFA)</span><span>Lean Six Sigma</span><span>Change Control (ECN/ECO)</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3>Programming &amp; Analysis</h3>
-        <div class="tags">
-          <span>C/C++</span><span>Python</span><span>SQL Basics</span><span>FPGA Logic</span><span>Power BI</span><span>Tableau</span><span>Git Version Control</span>
-        </div>
-      </article>
+    <h2><span class="num">04</span> Technical Skills &amp; Standing</h2>
+    <div class="skills">
+      <div class="skillset">
+        <h3>Embedded Systems &amp; Programming</h3>
+        <ul>
+          <li>Embedded C/C++</li>
+          <li>Python Automation</li>
+          <li>Microcontrollers (MSP430)</li>
+          <li>UART / SPI / I2C</li>
+          <li>Firmware Debugging</li>
+          <li>SQL Foundations</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3>Automation &amp; Design Layouts</h3>
+        <ul>
+          <li>AutoCAD Electrical</li>
+          <li>Autodesk Inventor</li>
+          <li>PLC Logic (Ladder/Structured)</li>
+          <li>HMI Screen Design</li>
+          <li>Altium Designer</li>
+          <li>NI Multisim</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3>Manufacturing &amp; Quality</h3>
+        <ul>
+          <li>Root-Cause Analysis (RCFA)</li>
+          <li>Change Control (ECN/ECO)</li>
+          <li>Lean Manufacturing</li>
+          <li>Six Sigma Parameters</li>
+          <li>SOP Authoring</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3>Data Analytics &amp; Labs</h3>
+        <ul>
+          <li>Oscilloscopes / Spectrums</li>
+          <li>LabVIEW Testing</li>
+          <li>Power BI / Tableau</li>
+          <li>Advanced Excel Modeling</li>
+          <li>Linux Fundamentals</li>
+          <li>Git Version Control</li>
+        </ul>
+      </div>
     </div>
     
-    <h3 class="sub" style="margin-top: 3.5rem;">Education &amp; Professional Standings</h3>
-    <div class="cards">
-      <article class="card" style="grid-column: 1 / -1;">
-        <p style="margin-bottom: 1rem;"><strong>Engineering Intern (EIT)</strong> — Registered and in active good standing with Engineers Geoscientists Manitoba (EGM).</p>
-        <p style="margin-bottom: 1rem;"><strong>Bachelor of Technology (B.Tech)</strong> — Electronics and Communication Engineering.</p>
-        <p><strong>Validated Credentials:</strong> PLC Developer Certification, AutoCAD Micro-Credential Program, Python Data Analytics Diploma, LabVIEW Programming Certificate, Linux Infrastructure Fundamentals.</p>
-      </article>
+    <div class="edu">
+      <h3>Education &amp; Professional Standings</h3>
+      <p><strong>Engineering Intern (EIT)</strong> — Registered and in active good standing with Engineers Geoscientists Manitoba (EGM).</p>
+      <p><strong>Bachelor of Technology (B.Tech)</strong> — Electronics and Communication Engineering.</p>
+      <p class="muted"><strong>Validated Training:</strong> PLC Developer Certification, AutoCAD Micro-Credential Program, Python Data Analytics Diploma, LabVIEW Programming Certificate, Linux Infrastructure Fundamentals.</p>
     </div>
   </div>
 </section>
 
-<section id="contact" class="section alt">
-  <div class="wrap msg-wrap">
+<section id="contact" class="section">
+  <div class="wrap contact">
     <h2><span class="num">05</span> Contact</h2>
     <p class="lead">I am open to discussing engineering roles across electrical design, embedded firmware programming, plant automation control, or production operations optimization.</p>
-    <div class="msg-links">
+    <div class="cta" style="justify-content: center; margin-top: 24px;">
       <a href="mailto:krupapatel2932@gmail.com" class="btn primary">Email me</a>
       <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
     </div>
