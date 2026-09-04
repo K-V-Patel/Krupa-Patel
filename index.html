@@ -251,5 +251,26 @@
   </div>
 </section>
 </main>
+
+<script>
+  // Dark Mode Storage & Initialization Controller
+  const themeBtn = document.getElementById('theme');
+  const currentTheme = localStorage.getItem('portfolio-theme') || 'light';
+  
+  if (currentTheme === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+
+  themeBtn.addEventListener('click', () => {
+    let theme = 'light';
+    if (document.documentElement.getAttribute('data-theme') !== 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      theme = 'dark';
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+    }
+    localStorage.setItem('portfolio-theme', theme);
+  });
+</script>
 </body>
 </html>
